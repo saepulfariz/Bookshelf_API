@@ -8,7 +8,7 @@
     "start-dev": "nodemon src/server.js",
     "lint": "eslint ./src"
   },
-  "author": "",
+  "author": "Saepulfariz",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.36.0",

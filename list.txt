@@ -1,0 +1,55 @@
+npm install nodemon --save-dev
+
+npm install eslint --save-dev
+
+npm install --save express body-parser nodemon
+
+npm install eslint --save-dev
+
+npx eslint --init
+
+npm install @hapi/hapi
+npm instal nanoid
+npm i nanoid
+
+"dependencies": {
+    "@hapi/hapi": "^21.3.0",
+    "nanoid": "^3.3.6"
+  }
+
+√ How would you like to use ESLint? · style
+√ What type of modules does your project use? · commonjs
+√ Which framework does your project use? · none
+√ Does your project use TypeScript? · No / Yes
+√ Where does your code run? · browser
+√ How would you like to define a style for your project? · guide
+√ Which style guide do you want to follow? · airbnb      
+√ What format do you want your config file to be in? · JSON  
+Checking peerDependencies of eslint-config-airbnb-base@latest
+The config that you've selected requires the following dependencies:
+
+eslint-config-airbnb-base@latest eslint@^7.32.0 || ^8.2.0 eslint-plugin-import@^2.25.2
+√ Would you like to install them now? · No / Yes
+√ Which package manager do you want to use? · npm
+
+>> tambah in di package.json
+ "scripts": {
+    "start": "node src/server.js",
+    "start-dev": "nodemon src/server.js",
+    "lint": "eslint ./src"
+  },
+
+
+  "rules": {
+        "no-console": "off"
+    }
+
+
+npm install newman --g
+
+
+newman run notes-api-test.postman_collection.json --environment notes-api-test.postman_environment.json
+
+
+
+npx newman run Bookshelf-API-Test.postman_collection.json --environment Bookshelf-API-Test.postman_environment.json
